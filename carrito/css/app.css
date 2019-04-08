@@ -238,6 +238,7 @@ body {
       -ms-flex-direction: column;
       flex-direction: column; }
       .footer .contenedor-footer .menu a {
+        text-decoration: none;
         color: #ffffff;
         margin: 1rem 0 0 0;
         font-weight: 500; }
