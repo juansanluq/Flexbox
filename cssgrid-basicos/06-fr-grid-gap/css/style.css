@@ -1,0 +1,31 @@
+h2 {
+    margin: 0;
+}
+
+.servicios {
+    border: 3px solid black;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem 2rem;
+}
+
+.servicio {
+    color: white;
+    text-align: center;
+}
+
+.servicio-1 {
+    background-color: darkviolet;
+}
+
+.servicio-2 {
+    background-color: limegreen;
+}
+
+.servicio-3 {
+    background-color: teal;
+}
