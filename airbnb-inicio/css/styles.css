@@ -254,3 +254,60 @@ h3 {
 .destinos .card:hover img {
     filter: none;
 }
+
+
+/* Footer */
+
+.nav-footer {
+    padding: 1rem;
+}
+
+.nav-footer h3 {
+    font-size: 1.2rem;
+}
+
+.nav-footer a {
+    display: block;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    color: var(--oscuro);
+}
+
+.nav-footer a:last-of-type {
+    margin-bottom: 0;
+}
+
+.sociales ul li span {
+    display: none;
+}
+
+.sociales ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sociales ul li a:before {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 2rem;
+}
+
+.sociales ul li a[href*="facebook.com"]::before {
+    content: "\f39e"
+}
+
+.sociales ul li a[href*="twitter.com"]::before {
+    content: "\f099"
+}
+
+.sociales ul li a[href*="youtube.com"]::before {
+    content: "\f167"
+}
+
+.sociales ul li a[href*="instagram.com"]::before {
+    content: "\f16d"
+}
+
+.sociales ul li a[href*="pinterest.com"]::before {
+    content: "\f0d2"
+}
